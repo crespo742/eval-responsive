@@ -1,0 +1,1087 @@
+body{
+    margin: 0px;
+}
+
+/* HEADER */
+
+.header__main{
+    flex-direction: column;
+    margin-top: 15.5px;
+}
+
+.header__above{
+    display: flex;
+    justify-content: space-around;
+    flex: 1 0 auto;
+    align-items: center;
+    margin-left: 5%;
+}
+.header__weather{
+    display: flex;
+    align-items: center;
+
+}
+
+.weather__date{
+    margin: 0px 0px 0px 8px;
+    font-family: 'HK Grotesk';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0.34285715222358704px;
+    color: #003B5C;
+}
+
+.weather__city{
+    margin: 0px 0px 0px 8px;
+    font-family: 'HK Grotesk';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0.34285715222358704px;
+    color: #5D534F99;
+}
+
+.header__logo{
+    justify-content: center;
+}
+
+.header__about{
+    display: flex;
+}
+
+.header__about__text{
+    text-decoration: none;
+    font-family: 'HK Grotesk';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    margin-right: 38px;
+    line-height: 15px;
+    letter-spacing: 0.34285715222358704px;
+    text-align: center;
+    color: #003B5C;
+}
+
+.header__about__search{
+    text-decoration: none;
+    font-family: 'HK Grotesk';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    margin-right: 27px;
+    line-height: 15px;
+    letter-spacing: 0.34285715222358704px;
+    text-align: center;
+    color: #003B5C;
+}
+.header__line{
+    border: 1px solid #E3DACC80;
+    margin: 21.5px 0px 15px 0px;
+}
+
+.header__below{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    list-style: none;
+}
+
+.header__below__text{
+    font-family: 'HK Grotesk';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0.34285715222358704px;
+    text-align: center;
+    color: #003B5C;
+    margin-right: 50px;
+    text-decoration: none;
+}
+
+.header__below__last__text{
+    font-family: 'HK Grotesk';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0.34285715222358704px;
+    text-align: center;
+    color: #003B5C;
+    text-decoration: none;
+}
+
+/* MAIN */
+
+.big__square{
+    display: flex;
+    justify-content: center;
+}
+
+.left__square{
+    height: 697px;
+    width: 736px;
+    position: relative;
+}
+
+.second__left__square{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 0px 117px 0px 117px;
+    align-items: center;
+    position: absolute;
+    top: 62%;
+    background-color: white;
+}
+
+.right__square{
+    position: relative;
+}
+
+.first__square{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.first__text{
+    color: #003B5C;
+    font-family: "HK Grotesk";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0.4000000059604645px;
+    margin-right: 3px;
+}
+
+.second__first__text{
+    font-family: "HK Grotesk";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0.4000000059604645px;
+    text-align: center;
+    color:#5D534F99;
+}
+
+.second__text{
+    font-family: "Libre Baskerville";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 39px;
+    letter-spacing: -0.4000000059604645px;
+    text-align: center;
+    color: #003B5C;
+    width: 321px;
+    margin: 0px;
+}
+
+.third__text{
+    font-family: "Libre Baskerville";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.4000000059604645px;
+    text-align: center;
+    color: #5D534F;
+    width: 390px;
+    margin: 0px;
+}
+
+.square__fourth__text{
+    display: flex;
+    align-items: center;
+}
+
+.link__fourth__text{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.fourth__text{
+    text-decoration: none;
+    font-family: "HK Grotesk";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0.39896801114082336px;
+    text-align: center;
+    color: #E74832;
+    margin: 12px 10px 12px 0px;
+}
+
+.second--right--square{
+    display: flex;
+    flex-direction: column;
+    width: 440px;
+    margin: 0px 39px 0px 40px;
+    align-items: center;
+    position: absolute;
+    top: 42%;
+    background-color: white;
+}
+
+.first--square{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.first--text{
+    color: #003B5C;
+    font-family: "HK Grotesk";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0.4000000059604645px;
+    margin-right: 3px;
+}
+
+.second--first--text{
+    font-family: "HK Grotesk";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0.4000000059604645px;
+    text-align: center;
+    color:#5D534F99;
+}
+
+.second--text{
+    font-family: "Libre Baskerville";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 39px;
+    letter-spacing: -0.4000000059604645px;
+    text-align: center;
+    color: #003B5C;
+    width: 343px;
+    margin: 0px;
+}
+
+.third--text{
+    font-family: "Libre Baskerville";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.4000000059604645px;
+    text-align: center;
+    color: #5D534F;
+    width: 390px;
+    margin: 0px;
+}
+
+.square--fourth--text{
+    display: flex;
+    align-items: center;
+}
+
+.fourth--text{
+    text-decoration: none;
+    font-family: "HK Grotesk";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0.39896801114082336px;
+    text-align: center;
+    color: #E74832;
+    margin: 12px 10px 12px 0px;
+}
+
+/* FIRST GRID */
+
+.arrow__btn{
+    padding-bottom: 16%;
+}
+
+.watch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 19px;
+}
+
+.watch__line{
+    border-top: 2px solid #E5DBD1;
+    border-bottom: 2px solid #E5DBD1;
+    width: 35%;
+    margin-right: 2%;
+}
+
+.second__watch__line{
+    border-top: 2px solid #E5DBD1;
+    border-bottom: 2px solid #E5DBD1;
+    width: 35%;
+    margin-left: 2%;
+}
+
+.watch__logo{
+    height: 41px;
+    width: 172px;
+    box-shadow: 4px 5px 6px 3px rgba(229, 219, 209, 1);
+}
+
+.car__logo{
+    height: 41px;
+    width: 179px;
+    box-shadow: 4px 5px 6px 3px rgba(229, 219, 209, 1);
+}
+
+.watch__logo__text{
+    font-family: "HK Grotesk";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #003B5C;
+    margin: 5px 0px 0px 0px;
+}
+
+.watch__text__wrapper{
+    display: flex;
+    justify-content: center;
+    width: 1301px;
+    flex: 1;
+    margin-right: -3%;
+    margin-left: 7%;
+}
+
+.lifestyle__text__wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1301px;
+    flex: 1;
+    margin-right: -3%;
+    margin-left: 7%;
+}
+
+.lifestyle__wrapper__text{
+    display: flex;
+    justify-content: center;
+    width: 1301px;
+    flex: 1;
+    margin-right: -3%;
+    margin-left: 7%;
+}
+
+.link__fourth--text{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.link__fourth-text{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.watch__text{
+    font-family: "HK Grotesk";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0.4000000059604645px;
+    text-align: center;
+    color: #5D534F;
+    margin-right: 20px;
+}
+
+.lifestyle__text{
+    font-family: "HK Grotesk";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0.4000000059604645px;
+    text-align: center;
+    color: #5D534F;
+    margin-right: 20px;
+}
+
+
+.watch__about__wrapper{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 1%;
+}
+
+.watch__about{
+    font-family: "HK Grotesk";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0.39896801114082336px;
+    text-align: center;
+    color: #E74832;
+    margin: 0px 10px 0px 0px;
+}
+
+.grid__wrapper{
+    display: flex;
+    justify-content: center;
+    height: 450px;
+}
+
+.grid--wrapper{
+    height: 697px;
+    width: 1301px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.grid{
+    width: 321px;
+}
+
+.grid__text__wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.grid__first__text{
+    font-family: "HK Grotesk";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0.4000000059604645px;
+    color: #003B5C;
+    margin-right: 2px;
+}
+
+.grid__second__text{
+    font-family: "HK Grotesk";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0.4000000059604645px;
+    text-align: left;
+    color: #5D534F;
+}
+
+.grid__third__text{
+    font-family: "Libre Baskerville";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: -0.4000000059604645px;
+    text-align: left;
+    color: #003B5C;
+    margin: 0px;
+}
+
+/* Ici on va réutiliser des classes utilisé
+pour le carré de la voiture et du verre d'alcool
+ou bien réutilisé la première grid
+
+Right now i will use some class already use previously
+pour the square with the car and the glass of alcohol
+or even recycle the first grid  */
+
+
+/* NEWLETTER */
+
+.news__wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 81px;
+}
+
+.hero__section{
+    position: relative;
+    text-align: center;
+}
+
+.hero__img{
+    width: 100%;
+}
+
+.hero__content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.hero__title{
+    font-family: "Libre Baskerville";
+    font-size: 52px;
+    font-weight: 400;
+    line-height: 54px;
+    letter-spacing: -0.8666666746139526px;
+    text-align: center;
+}
+
+.news__title{
+    margin: 0px 0px 25px 0px;
+}
+
+.title__italic{
+    font-family: "Libre Baskerville";
+    font-size: 52px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 54px;
+    letter-spacing: -0.8666666746139526px;
+    text-align: center;
+}
+
+.hero__wrapper__text{
+    font-family: "Libre Baskerville";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: -0.4000000059604645px;
+    text-align: center;
+    width: 590px;
+    margin: 0px 0px 1px 0px;
+}
+
+.hero__text{
+    margin-bottom: 36px;
+}
+
+.hero__btn{
+    box-shadow: 6px 5px 1px 0px rgba(231, 72, 50, 1);
+    width: 248.57px;
+    height: 50px;
+    font-family: "HK Grotesk";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0.4997420012950897px;
+    text-align: center;
+    background-color: white;
+}
+
+.hero__btn:hover{
+    box-shadow: 6px 5px 1px 0px white;
+    background-color: rgba(231, 72, 50, 1);
+    transition: 0.5s all;
+    color: white;
+}
+
+/* FOOTER */
+
+footer{
+    height: 390px;
+    width: 100%;
+    background-color: #E74832;
+    align-items: center;
+}
+
+.footer__wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer__first__square{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 5.5%;
+}
+
+.img__footer{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.square__title{
+    font-family: "HK Grotesk";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: -0.550000011920929px;
+    text-align: left;
+    color: white;
+    margin: 0px 0px 5px 0px;
+}
+
+.square__text{
+    text-decoration: none;
+    color: white;
+    font-family: "HK Grotesk";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0.4000000059604645px;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.footer__scnd__square{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 4%;
+}
+
+.footer__third__square{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 3%;
+}
+
+.btn__wrapper{
+    margin-top: 8%;
+}
+
+.footer__btn{
+    color: white;
+    height: 44px;
+    width: 183px;
+    border: 1px solid white;
+    background-color: #E74832;
+    box-shadow: 4px 6px 1px 0px white;
+}
+
+.footer__btn:hover{
+    box-shadow: 4px 6px 1px 0px black;
+    background-color: white;
+    color: rgba(231, 72, 50, 1);
+}
+
+.footer__fourth__square{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1%; 
+}
+
+.fourth__square{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fourth__square__items{
+    text-decoration: none;
+    color: white;
+}
+
+.footer__line{
+    border-top: 1px solid white;
+    width: 92%;
+    margin-left: 4%;
+    margin-bottom: 2px;
+}
+
+.footer__scnd__line{
+    border-bottom: 1px solid white;
+    width: 92%;
+    margin-left: 4%;
+    margin-bottom: 11px;
+}
+
+.footer__about{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.footer__about__text{
+    color: white;
+    font-family: "HK Grotesk";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0.4000000059604645px;
+    text-align: left;
+    margin: 25px 4% 0px 4%;
+}
+
+/* CSS POUR LA PAGE INSCRIPTION
+CSS FOR THE REGISTER PAGE */
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3% 0% 7% 38%;
+    border-radius: 5px;
+    height: 239px;
+    width: 337px;
+    justify-content: center;
+    background-color: #F2F2F2;
+    box-shadow: 7px 8px 3px 1px black;
+}
+
+.case{
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.form__btn{
+    height: 23px;
+    width: 122px;
+    background-color: white;
+}
+
+/* RESPONSIVE */
+
+@media (max-width:500px){
+    .header__above{
+        flex-direction: column;
+        margin-left: 41%;
+    }
+
+    .header__weather{
+        margin-bottom: 11px;
+    }
+
+    .header__logo{
+        margin-bottom: 10px;
+    }
+
+    .header__line{
+        width: 144%;
+    }
+
+    .header__below__wrapper{
+        margin-bottom: 50px;
+    }
+
+    .header__below{
+        width: 140%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header__below__text{
+        font-size: 1rem;
+    }
+
+    .header__below__last__text{
+        font-size: 1rem;
+    }
+
+    /* BURGER MENU */
+
+    #side-bar{
+        position: fixed;
+        width: 531px;
+        height: 100%;
+        background: #F2F2F2;
+        left: -532px;
+        transition: .5s ease-out;
+        z-index: 1;
+        top: 0%;
+    }
+    .toggle-btn{
+        position: absolute;
+        top: 23px;
+        left: 554px;
+        cursor: pointer;
+        height: 50px;
+        width: 50px;
+    }
+    .toggle-btn span{
+        width: 60px;
+        height: 5px;
+        border-radius: 5px;
+        background: black;
+        display: block;
+        margin-top: 4px; 
+        transition: 0.3s ease;
+        top: 3%;
+    }
+    
+    #side-bar.active{
+        left: 0;
+        height: 100%;
+        top: 0%;
+    }
+
+    li{
+        margin-bottom: 30px;
+    }
+    
+    #side-bar.active .toggle-btn {
+      left: 536px;
+      top: 26px;
+    }
+
+    #side-bar.active span {
+      position: absolute;
+    }
+
+    #side-bar.active span:nth-child(1) {
+      transform: rotate(45deg);
+      top: 0px;
+    }
+
+    #side-bar.active span:nth-child(2) {
+      opacity: 0;
+    }
+
+    #side-bar.active span:nth-child(3) {
+      transform: rotate(-45deg);
+    }
+
+    #side-bar.active body {
+      opacity: 0.3;
+    }
+
+    /* END OF BURGER MENU */
+
+    .grid--wrapper{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .big__square{
+        margin-bottom: 502px;
+        margin-left: 65px;
+    }
+
+    .left__square{
+        margin-bottom: 265px;
+    }
+
+    .left__square__img{
+        width: 510px;
+        height: 308px;
+        margin-left: 177px;
+    }
+    .second__left__square{
+        top: 86%;
+        margin-right: 0;
+        left: 16%;
+        width: 53%;
+    }
+
+    .second__text{
+        width: 328px;
+        margin-bottom: 6px;
+    }
+
+    .third__text{
+        width: 390px;
+    }
+
+    .right__square{
+        left: 8%;
+    }
+
+    .right__square__img{
+        width: 459px;
+    }
+
+    .second--right--square{
+        top: 83%;
+        width: 82%;
+    }
+
+    .second--text{
+        width: 343px;
+        margin-bottom: 6px;
+    }
+
+    .third--text{
+        width: 379px;
+    }
+
+    .watch__wrapper{
+        margin-bottom: 800px;
+    }
+
+    .watch{
+        width: 145%;
+        justify-content: flex-start;
+    }
+
+    .watch__line{
+        width: 31%;
+        margin-left: 7px;
+    }
+
+    .second__watch__line{
+        width: 32%;
+    }
+
+    .watch__text__wrapper{
+        justify-content: center;
+        margin-left: 29%;
+        align-items: center;
+        width: 396px;
+        margin-right: 12%;
+    }
+
+    .grid__wrapper{
+        margin-left: 42%;
+    }
+
+    .link__fourth--text{
+        width: 112px;
+    }
+
+    .fourth__text{
+        width: 93px;
+        margin: 12px 2px 12px 0px;
+    }
+
+    .news__wrapper{
+        margin-bottom: 30px;
+    }
+
+    .car__wrapper{
+        margin-bottom: 800px;
+    }
+
+    .hero__section{
+        margin-left: 193px;
+    }
+
+    .hero__img{
+        width: 608px;
+    }
+
+    .hero__content{
+        width: 354px;
+    }
+
+    .hero__wrapper__text{
+        width: 271px;
+    }
+
+    .hero__text{
+        width: 131%;
+    }
+
+    .lifestyle__wrapper{
+        margin-bottom: 800px;
+    }
+
+    .lifestyle__text__wrapper{
+        width: 552px;
+    }
+
+    .sports__wrapper{
+        margin-bottom: 830px;
+    }
+
+    footer{
+        height: 791px;
+        width: 147%;
+    }
+
+    .footer__wrapper{
+        flex-direction: column;
+        margin-bottom: 15px;
+    }
+
+    .footer__first__square{
+        align-items: center;
+    }
+
+    .footer__scnd__square{
+        align-items: center;
+    }
+
+    .footer__third__square{
+        align-items: center;
+        margin-bottom: 15px;
+    }
+
+    .footer__fouth__square{
+        align-items: center;
+    }
+
+}
+
+/* RESPOSIVE IPAD PRO */
+
+@media (max-width:1024px) and (min-width:528px){
+    .big__square{
+        margin-bottom: 607px;
+    }
+    
+    .grid--wrapper{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left__square{
+        margin-bottom: 200px;
+    }
+
+    .second__left__square{
+        top: 89%;
+    }
+
+    .second--right--square{
+        top: 86%;
+    }
+
+    .watch__wrapper{
+        margin-bottom: 800px;
+    }
+    
+    .watch__text__wrapper{
+        margin: 0px 0px 0px 9%;
+        width: 882px;
+    }
+
+    .lifestyle__text__wrapper{
+        margin: 0px 0px 0px 9.5%;
+        width: 882px;
+    }
+
+    .car__wrapper{
+        margin-bottom: 800px;
+    }
+
+    .lifestyle__wrapper{
+        margin-bottom: 800px;
+    }
+
+    .sports__wrapper{
+        margin-bottom: 800px;
+    }
+
+    footer{
+        height: 339px;
+    }
+}
+
